@@ -1,0 +1,9 @@
+{
+  "button.text.newComment": "New Comment",
+  "button.text.newPost": "New Post",
+  "button.text.cancel": "Cancel",
+  "button.text.ok": "OK",
+  "button.text.submit": "Submit",
+  "modal.new.post.title.text": "New Post",
+  "input.placeholder.new.post": "Input post text..."
+}
