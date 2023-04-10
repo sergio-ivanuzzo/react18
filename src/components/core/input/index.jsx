@@ -13,21 +13,21 @@ const StyledInput = styled.input`
 `;
 
 const Input = ({ type, placeholder, shouldFocus }) => {
-    return (
-        <StyledInput type={type} placeholder={placeholder} autoFocus={shouldFocus} />
-    );
+	return (
+		<StyledInput type={type} placeholder={placeholder} autoFocus={shouldFocus} />
+	);
 };
 
 Input.propTypes = {
-    type: PropTypes.string,
-    placeholder: PropTypes.string,
-    shouldFocus: PropTypes.bool,
+	type: PropTypes.string,
+	placeholder: PropTypes.string,
+	shouldFocus: PropTypes.bool,
 };
 
 Input.defaultProps = {
-    type: "text",
-    placeholder: "",
-    shouldFocus: true
+	type: "text",
+	placeholder: "",
+	shouldFocus: true
 };
 
 export default Input;
